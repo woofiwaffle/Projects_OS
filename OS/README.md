@@ -1,6 +1,6 @@
 <p align = "center">
   <img src = "https://img.shields.io/badge/Ubuntu-22.04_LTS-g?style=plastic&logo=Ubuntu&logoColor=black&labelColor=%23E95420&color=lightgrey" alt = "Linux Ubuntu version">
-  <img src = "https://img.shields.io/badge/Compiler-g%2B%2B-g?style=plastic&labelColor=grey&color=red" alt = "Compiler">
+  <img src = "https://img.shields.io/badge/Compiler-g%2B%2B-g?style=plastic&labelColor=%23E95420&color=lightgrey" alt = "Compiler">
 </p>
 
 # LETI Operating Systems
