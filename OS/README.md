@@ -13,7 +13,13 @@ program 1 – without synchronization tools,
 program 2 – sem_wait(),
 program 3 – sem_timedwait().
 ~~~
-3. practical3 ---
+3. practical3 --- Interaction of threads through unnamed pipes
+~~~
+Function 21
+
+int getnetent_r(struct netent *restrict result_buf, char *restrict buf, size_t buflen, struct netent **restrict result, int *restrict h_errnop); - get the netent structure,
+select a field from the structure, for example, n_name, and transmit it
+~~~
 4. practical4 ---
 5. practical5 ---
 6. practical6 ---
