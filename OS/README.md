@@ -17,7 +17,10 @@ program 3 – sem_timedwait().
 ~~~
 Function 21
 
-int getnetent_r(struct netent *restrict result_buf, char *restrict buf, size_t buflen, struct netent **restrict result, int *restrict h_errnop); - get the netent structure,
+int getnetent_r(struct netent *restrict result_buf, char *restrict buf,
+                size_t buflen, struct netent **restrict result,
+                int *restrict h_errnop);
+- get the netent structure,
 select a field from the structure, for example, n_name, and transmit it
 ~~~
 4. practical4 ---
