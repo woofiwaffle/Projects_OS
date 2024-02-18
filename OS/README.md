@@ -7,7 +7,12 @@
 
 ## About 
 1. practical1 --- Creating and Destroying Threads
-2. practical2 ---
+2. practical2 --- Synchronizing threads using unnamed semaphores
+~~~ 
+program 1 – without synchronization tools,
+program 2 – sem_wait(),
+program 3 – sem_timedwait().
+~~~
 3. practical3 ---
 4. practical4 ---
 5. practical5 ---
