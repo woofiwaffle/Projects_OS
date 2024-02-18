@@ -7,6 +7,10 @@
 
 ## About 
 1. practical1 --- Creating and Destroying Threads
+~~~
+Display the value of the default “scheduling parameter” attribute for any of the threads, change its value and
+illustrate the change in the attribute. Explain the essence of the attribute.
+~~~
 2. practical2 --- Synchronizing threads using unnamed semaphores
 ~~~ 
 program 1 – without synchronization tools,
