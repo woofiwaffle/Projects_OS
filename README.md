@@ -48,14 +48,14 @@ int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);
 
 epoll events are described by the following data structures:
 struct epoll_event {
-uint32_t events;
-epoll_data_t data;
+       uint32_t events;
+       epoll_data_t data;
 };
 typedef union epoll_data {
-void *ptr;
-int fd;
-uint32_t u32;
-uint64_t u64;
+       void *ptr;
+       int fd;
+       uint32_t u32;
+       uint64_t u64;
 } epoll_data_t;
 
 The epoll_wait() function has the following prototype:
