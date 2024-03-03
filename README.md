@@ -26,8 +26,41 @@ int getnetent_r(struct netent *restrict result_buf, char *restrict buf,
 - get the netent structure,
 select a field from the structure, for example, n_name, and transmit it
 ~~~
-4. practical4 ---
-5. practical5 ---
+4. practical4 --- Creation and destruction of processes
+~~~
+Function 7
+
+int execvpe(const char *file, char *const argv[], char *const envp[]).
+~~~
+5. practical5 --- Synchronizing processes using named semaphores
+~~~
+Function 7
+
+1) epoll_create() – creating an epoll instance;
+2) epoll_ctl() – instance management;
+3) epoll_wait() – waiting for an event to occur.
+
+The epoll instantiation function has the following prototype:
+int epoll_create(int size);
+
+The epoll instance control function has the following prototype:
+int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);
+
+epoll events are described by the following data structures:
+struct epoll_event {
+uint32_t events;
+epoll_data_t data;
+};
+typedef union epoll_data {
+void *ptr;
+int fd;
+uint32_t u32;
+uint64_t u64;
+} epoll_data_t;
+
+The epoll_wait() function has the following prototype:
+int epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout);
+~~~
 6. practical6 ---
 7. practical7 ---
 8. practical8 ---
