@@ -64,8 +64,6 @@ int epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout)
 6. practical6 ---
 7. practical7 ---
 8. practical8 ---
-9. practical9 ---
-10. practical10 ---
 
 ## Developer
 
