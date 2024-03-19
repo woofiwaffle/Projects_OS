@@ -1,4 +1,5 @@
 <p align = "center">
+   <img alt="Static Badge" src="https://img.shields.io/badge/VirtualBox-7.0.14-darkgrey?style=plastic&logo=virtualbox&labelColor=%23183A61&color=grey">
   <img src = "https://img.shields.io/badge/Ubuntu-22.04_LTS-g?style=plastic&logo=Ubuntu&logoColor=black&labelColor=%23E95420&color=lightgrey" alt = "Linux Ubuntu version">
   <img src = "https://img.shields.io/badge/Compiler-g%2B%2B-g?style=plastic&labelColor=blue&color=lightgrey" alt = "Compiler">
 </p>
