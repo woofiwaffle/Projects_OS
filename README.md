@@ -62,9 +62,21 @@ typedef union epoll_data {
 The epoll_wait() function has the following prototype:
 int epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout);
 ~~~
-6. practical6 ---
-7. practical7 ---
-8. practical8 ---
+6. practical6 --- Interaction of processes through shared memory
+~~~
+Standard POSIX
++
+Function 21
+~~~ 
+7. practical7 --- Interaction of processes through message queues 
+~~~
+Variant 7.2
++
+Queue SVID
++
+Function 21
+~~~
+8. practical8 --- Network interaction of processes via sockets
 
 ## Developer
 
