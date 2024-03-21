@@ -77,6 +77,13 @@ Queue SVID
 Function 21
 ~~~
 8. practical8 --- Network interaction of processes via sockets
+~~~
+socket INET
++
+TCP protocol
++
+Function 21
+~~~
 
 ## Developer
 
