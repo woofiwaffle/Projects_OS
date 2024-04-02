@@ -84,7 +84,3 @@ TCP protocol
 +
 Function 21
 ~~~
-
-## Developer
-
-*  [woofiwaffle](https://github.com/woofiwaffle)
