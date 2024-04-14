@@ -41,13 +41,6 @@ Function 7
 2) epoll_ctl() – instance management;
 3) epoll_wait() – waiting for an event to occur.
 
-The epoll instantiation function has the following prototype:
-int epoll_create(int size);
-
-The epoll instance control function has the following prototype:
-int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);
-
-epoll events are described by the following data structures:
 struct epoll_event {
        uint32_t events;
        epoll_data_t data;
@@ -58,8 +51,6 @@ typedef union epoll_data {
        uint32_t u32;
        uint64_t u64;
 } epoll_data_t;
-
-The epoll_wait() function has the following prototype:
 int epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout);
 ~~~
 6. practical6 --- Interaction of processes through shared memory
