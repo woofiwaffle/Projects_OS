@@ -55,4 +55,7 @@ Variant 7.2 + Queue SVID + Function 21
 ~~~
 socket INET + TCP protocol + Function 21
 ~~~
-9. ```practical9``` ---
+9. ```practical9``` --- Access control through namespace
+~~~
+5. User and group namespace (USER).
+~~~
