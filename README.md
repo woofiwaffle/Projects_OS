@@ -45,9 +45,9 @@ Function 7
 ~~~
 Standard POSIX + Function 21
 ~~~ 
-7. ```practical7.2``` --- Interaction of processes through message queues 
+7. ```practical7``` --- Interaction of processes through message queues 
 ~~~
-Queue SVID + Function 21
+Variant 7.2 + Queue SVID + Function 21
 ~~~
 8. ```practical8``` --- Network interaction of processes via sockets
 ~~~
