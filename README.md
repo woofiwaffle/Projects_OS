@@ -4,9 +4,7 @@
   <img src = "https://img.shields.io/badge/Compiler-g%2B%2B-g?style=plastic&labelColor=blue&color=grey" alt = "Compiler">
 </p>
 
-<a href="https://git.io/typing-svg">
-   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=6000&pause=1000&color=FFFFFFF7&vCenter=true&random=false&width=630&lines=LETI+Operating+Systems" alt="Typing SVG" />
-</a>
+LETI Operating Systems
 
 ## About 
 1. ```practical1``` --- Creating and Destroying Threads
