@@ -4,7 +4,7 @@
   <img src = "https://img.shields.io/badge/Compiler-g%2B%2B-g?style=plastic&labelColor=blue&color=grey" alt = "Compiler">
 </p>
 
-LETI Operating Systems
+# LETI Operating Systems
 
 ## About 
 1. ```practical1``` --- Creating and Destroying Threads
